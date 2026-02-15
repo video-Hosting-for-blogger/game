@@ -10,6 +10,9 @@ workers_dev = true
 bucket = "./dist"
 entry-point = "workers-site"
 
+# Required by Pages when using wrangler.toml
+pages_build_output_dir = "dist"
+
 # Optional: if you want to publish to a specific route, set route and zone_id
 # route = "example.com/*"
 # zone_id = "YOUR_ZONE_ID"

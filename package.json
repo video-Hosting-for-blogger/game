@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "wrangler:publish": "wrangler publish",
-    "wrangler:pages": "wrangler pages publish dist --project-name paramapadha-online",
-    "deploy": "npm run build && npx wrangler pages publish dist --project-name paramapadha-online"
+    "wrangler:pages": "wrangler pages deploy dist --project-name paramapadha-online",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name paramapadha-online"
   },
   "dependencies": {
     "react": "^18.2.0",
